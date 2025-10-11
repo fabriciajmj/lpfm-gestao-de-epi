@@ -1,6 +1,7 @@
 .bin
 .obj
 .wwwroot
+GestaoEpiMvc/bin
 GestaoEpiMvc/obj
 GestaoEpiMvc/wwwroot
 GestaoEpiApi/GestaoEpiApi/obj
