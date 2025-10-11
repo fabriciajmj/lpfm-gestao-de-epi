@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GestaoEpiApi",
+    "\\GestaoEpiApi\\GestaoEpiApi\\bin\\Debug",
+    "\\GestaoEpiApi\\GestaoEpiApi\\bin\\Release",
+    "\\GestaoEpiMvc",
+    "\\GestaoEpiMvc\\obj\\Debug",
+    "\\GestaoEpiMvc\\Properties"
+  ],
+  "SelectedNode": "\\GestaoEpiMvc\\wwwroot",
+  "PreviewInSolutionExplorer": false
+}

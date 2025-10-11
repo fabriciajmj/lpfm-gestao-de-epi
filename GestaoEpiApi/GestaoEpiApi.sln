@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoEpiApi", "GestaoEpiApi\GestaoEpiApi.csproj", "{E2DD295A-371A-4FF6-B842-20912A6E5BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoEpiMvc", "GestaoEpiMvc\GestaoEpiMvc.csproj", "{F905D30A-0419-4ABF-9C9E-B4D7642ED72D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2DD295A-371A-4FF6-B842-20912A6E5BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DD295A-371A-4FF6-B842-20912A6E5BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DD295A-371A-4FF6-B842-20912A6E5BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DD295A-371A-4FF6-B842-20912A6E5BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F905D30A-0419-4ABF-9C9E-B4D7642ED72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F905D30A-0419-4ABF-9C9E-B4D7642ED72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F905D30A-0419-4ABF-9C9E-B4D7642ED72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F905D30A-0419-4ABF-9C9E-B4D7642ED72D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05EE1970-814B-4CFE-801D-F72CF07D9A18}
+	EndGlobalSection
+EndGlobal

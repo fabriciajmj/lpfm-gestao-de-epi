@@ -1,0 +1,6 @@
+@GestaoEpiApi_HostAddress = http://localhost:5048
+
+GET {{GestaoEpiApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
