@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* * A estilização do <body> foi simplificada. 
+ * As regras de `display: flex; place-items: center;` foram removidas
+ * para que o componente AppLayout possa gerenciar o layout de tela cheia
+ * sem centralizar o conteúdo verticalmente.
+ */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* * Regras globais para <a>, <h1> e <button> foram removidas 
+ * para usar exclusivamente as classes de utilidade do Tailwind, 
+ * como text-brand-link, text-xl, bg-brand-primary etc.
+ */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}

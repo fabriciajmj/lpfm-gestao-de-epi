@@ -1,0 +1,109 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+.tmp
+.tmp/*
+temp
+temp/*
+temp-build
+temp-build/*
+
+# Local config
+local.env
+local.env.local
+local.env.development.local
+local.env.test.local
+local.env.production.local
+
+# Local dependencies
+node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build artifacts
+build
+build-ssr
+
+# Test coverage
+coverage
+
+# SvelteKit
+sveltekit
+sveltekit-manifest.json
+sveltekit.config.js
+sveltekit.config.ts
+sveltekit.server.ts
+sveltekit.server.js
+
+# Jest
+jest.config.js
+jest.setup.js
+
+# Cypress
+cypress.config.js
+cypress/integration
+cypress/plugins
+cypress/support
+
+# Next.js
+.next
+out
+
+# Nuxt.js
+.nuxt
+dist
+
+# Vite
+vite.config.js
+
+# Docusaurus
+docs
+docs/_static
+docs/.vitepress
+docs/.vitepress/config.js
+docs/.vitepress/theme
+docs/.vitepress/theme/index.js
+docs/.vitepress/theme/layout.vue
+docs/.vitepress/theme/components
+docs/.vitepress/theme/styles
+docs/.vitepress/theme/components/CodeBlock.vue
+docs/.vitepress/theme/components/CodeBlock.ts
+docs/.vitepress/theme/components/HomeHero.vue
+docs/.vitepress/theme/components/HomeHero.ts
+docs/.vitepress/theme/components/Page.vue
+docs/.vitepress/theme/components/Page.ts
+docs/.vitepress/theme/components/SearchBar.vue
+docs/.vitepress/theme/components/SearchBar.ts   
+
+# Other
+.env
+.env.development
+.env.production
+.env.test
+.env.local
+.env.development.local
+.env.production.local
