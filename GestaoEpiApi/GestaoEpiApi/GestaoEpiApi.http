@@ -1,4 +1,4 @@
-@GestaoEpiApi_HostAddress = http://localhost:5048
+@GestaoEpiApi_HostAddress = http://localhost:7048
 
 GET {{GestaoEpiApi_HostAddress}}/weatherforecast/
 Accept: application/json

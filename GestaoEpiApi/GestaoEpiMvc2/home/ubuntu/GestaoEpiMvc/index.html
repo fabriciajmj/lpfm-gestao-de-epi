@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de EPIs - Sistema MVC</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>🛡️ Gestão EPIs</h1>
+                <p>Sistema de Gerenciamento</p>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" data-view="dashboard">
+                            <span class="icon">📊</span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-view="empresas">
+                            <span class="icon">🏢</span>
+                            Empresas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-view="epis">
+                            <span class="icon">🛡️</span>
+                            EPIs
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-view="funcionarios">
+                            <span class="icon">👷</span>
+                            Funcionários
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-view="movimentacoes">
+                            <span class="icon">📦</span>
+                            Movimentações
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-view="usuarios">
+                            <span class="icon">👤</span>
+                            Usuários
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <!-- Área de Conteúdo Principal -->
+        <main class="main-content">
+            <div id="content-area">
+                <!-- O conteúdo será carregado dinamicamente aqui -->
+                <div class="loading">Carregando aplicação...</div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Scripts -->
+    <!-- Configuração da API -->
+    <script src="config/api.js"></script>
+    
+    <!-- Models -->
+    <script src="models/Empresa.js"></script>
+    <script src="models/Epi.js"></script>
+    <script src="models/Funcionario.js"></script>
+    <script src="models/Movimentacao.js"></script>
+    <script src="models/Usuario.js"></script>
+    
+    <!-- Controllers -->
+    <script src="controllers/AppController.js"></script>
+    <script src="controllers/EpiController.js"></script>
+    <script src="controllers/FuncionarioMovimentacaoController.js"></script>
+    <script src="controllers/UsuarioController.js"></script>
+</body>
+</html>
+

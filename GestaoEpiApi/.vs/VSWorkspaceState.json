@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GestaoEpiApi\\Migrations",
     "\\GestaoEpiApi\\Models"
   ],
-  "SelectedNode": "\\GestaoEpiApi.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "GestaoEpiApi\\GestaoEpiApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GestaoEpiMvc\\GestaoEpiMvc.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
